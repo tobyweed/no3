@@ -1,0 +1,3 @@
+
+When running programs that use SGB, assuming you have already made all the sgb files,
+add libgb.a to the end of the gcc command. This is in response to undefined symbols errors.
