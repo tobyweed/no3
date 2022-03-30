@@ -5,8 +5,8 @@ Using this software we were able to find good placements of `n+1` queens on only
 
 Additionally, we found exhaustive lists of good placements of up to `n+1` queens for odd `n` up to 19. These findings are summarized in the following table:
 
-Board Size (n)   | 5 | 7 | 9 | 11 | 13 | 15 | 17 | 19 | \\
------------------+---+---+---+----+----+----+----+----- \\
+Board Size (n)   | 5 | 7 | 9 | 11 | 13 | 15 | 17 | 19 |  
+-----------------+---+---+---+----+----+----+----+-----   
 \# of Placements | 1 | 2 | 2 | 6  | 15 | 23 | 44 | 65 |
 
 The number of placements are up to listed symmetry; e.g. placements which differed only by a reflection or a rotation were not counted multiple times.
