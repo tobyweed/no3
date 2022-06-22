@@ -1,5 +1,5 @@
 # no3
-SAT solvers and scripts to find solutions to [Martin Gardner's minimum no-3-in-a-line problem](https://arxiv.org/abs/1206.5350). 
+SAT solvers and scripts to find solutions to [Martin Gardner's minimum no-3-in-a-line problem](https://arxiv.org/abs/1206.5350). Codebase originates with Donald Knuth.
 
 Using this software we were able to find good placements of `n+1` queens on only odd rows and columns for odd `n` up to `n = 41`. Previously there were only upper bounds established for up to `n=18`.
 
