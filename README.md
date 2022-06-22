@@ -1,5 +1,5 @@
 # no3
-SAT solvers and scripts to find solutions to [Martin Gardner's minimum no-3-in-a-line problem](https://arxiv.org/abs/1206.5350). Codebase originates with Donald Knuth.
+SAT solvers and scripts to find solutions to [Martin Gardner's minimum no-3-in-a-line problem](https://arxiv.org/abs/1206.5350). Utilizes the sat13 SAT solver written by D. E. Knuth in the CWEB programming language by Knuth and Levy, the Stanford GraphBase (SGB) by Knuth, adaptations of scripts by Knuth to encode the no3 problem in Conjunctive Normal Form (CNF)--these scripts are contained in in the folder nothree. We also added scripts to convert this encoding to the DIMACS format & back in order to search exhaustively for solutions to the no3 problem using a [blocking clause, all-solutions SAT solver](https://arxiv.org/abs/1510.00523).
 
 Using this software we were able to find good placements of `n+1` queens on only odd rows and columns for odd `n` up to `n = 41`. Previously there were only upper bounds established for up to `n=18`.
 
